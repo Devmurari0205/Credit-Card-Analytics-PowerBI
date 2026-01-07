@@ -1,0 +1,155 @@
+CREDIT CARD ANALYTICS – BUSINESS REQUIREMENTS DOCUMENT (BRD)
+===========================================================
+
+1. BUSINESS OVERVIEW
+-------------------
+The objective of this project is to develop an interactive Power BI dashboard
+to analyze credit card transactions and customer behavior. The dashboard will
+support business stakeholders in understanding revenue trends, customer
+segmentation, spending patterns, and card performance to enable
+data-driven decision-making.
+
+---
+
+2. BUSINESS PROBLEM STATEMENT
+-----------------------------
+The organization currently lacks a centralized analytical view to:
+- Monitor credit card transaction performance
+- Identify high-value customers
+- Understand customer spending behavior
+- Track revenue and interest income trends
+
+Manual reporting processes are time-consuming and do not provide
+actionable insights in real time.
+
+---
+
+3. BUSINESS OBJECTIVES
+----------------------
+- Provide a consolidated view of credit card transactions and customer data
+- Identify revenue-generating customer segments
+- Analyze transaction trends by time, card type, and customer demographics
+- Improve strategic decision-making through visual insights
+
+---
+
+4. STAKEHOLDERS
+---------------
+- Business Analysts
+- Finance & Banking Team
+- Sales & Marketing Team
+- Senior Management
+
+---
+
+5. DATA SOURCES
+---------------
+The following CSV files are used as data sources:
+
+1. credit_card.csv
+   - Transaction details
+   - Revenue and interest earned
+   - Card category and transaction type
+
+2. customer.csv
+   - Customer demographic information
+   - Gender, income group, and age details
+
+3. cc_add.csv
+   - Additional credit card attributes
+
+4. cust_add.csv
+   - Customer address and regional information
+
+---
+
+6. KEY METRICS (KPIs)
+---------------------
+- Total Transactions
+- Total Revenue
+- Total Interest Earned
+- Average Transaction Value
+- Number of Active Customers
+- Revenue by Card Category
+- Revenue by Customer Segment
+- Transaction Growth Rate
+
+---
+
+7. DIMENSIONS FOR ANALYSIS
+--------------------------
+- Time (Year, Quarter, Month)
+- Card Category
+- Transaction Type
+- Customer Age Group
+- Gender
+- Income Group
+- Location / Region
+
+---
+
+8. DASHBOARD REQUIREMENTS
+--------------------------
+The Power BI dashboard should include:
+
+A. Credit Card Transaction Dashboard
+   - Total Revenue & Total Transactions
+   - Interest Earned Analysis
+   - Transaction Trends over Time
+   - Card Category Performance
+   - Transaction Type Breakdown
+
+B. Customer Analytics Dashboard
+   - Customer Demographics Overview
+   - Income Group Analysis
+   - High-Value Customer Identification
+   - Regional Customer Distribution
+   - Spending Behavior by Segment
+
+---
+
+9. FUNCTIONAL REQUIREMENTS
+---------------------------
+- Interactive filters and slicers
+- Drill-down capability by time and category
+- Dynamic KPI calculations using DAX
+- Automated data refresh capability
+- Clear and user-friendly visual layout
+
+---
+
+10. NON-FUNCTIONAL REQUIREMENTS
+--------------------------------
+- Dashboard performance should be optimized for large datasets
+- Visuals should be easy to interpret and business-friendly
+- Data accuracy and consistency must be maintained
+- Scalable design for future data expansion
+
+---
+
+11. ASSUMPTIONS
+---------------
+- All input CSV files contain valid and accurate data
+- Data relationships are consistent across datasets
+- Power BI Desktop is used for report development
+
+---
+
+12. EXPECTED BUSINESS OUTCOMES
+-------------------------------
+- Improved visibility into credit card performance
+- Better identification of high-revenue customers
+- Faster decision-making through real-time dashboards
+- Enhanced understanding of customer behavior and trends
+
+---
+
+13. SUCCESS CRITERIA
+--------------------
+- Accurate KPI calculations
+- Positive stakeholder feedback
+- Reduction in manual reporting efforts
+- Actionable insights derived from dashboards
+
+===========================================================
+END OF BUSINESS REQUIREMENTS DOCUMENT
